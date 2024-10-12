@@ -226,7 +226,7 @@ collections:
   blog:
     output: true
     permalink: /:collection/:path/
-  resaerch:
+  research:
     output: true
     permalink: /:collection/:path/
   industry:
