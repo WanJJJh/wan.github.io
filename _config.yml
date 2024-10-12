@@ -223,6 +223,15 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  blog:
+    output: true
+    permalink: /:collection/:path/
+  resaerch:
+    output: true
+    permalink: /:collection/:path/
+  industry:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
