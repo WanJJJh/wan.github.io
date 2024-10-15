@@ -11,10 +11,12 @@ fi
 # 获取提交信息
 if [ -z "$1" ]; then
     echo "使用方法: $0 \"提交信息\""
-    exit 1
+    # exit 1
+    COMMIT_MESSAGE = 'change'
+else
+    COMMIT_MESSAGE="$1"
 fi
 
-COMMIT_MESSAGE="$1"
 
 # 执行 git add
 echo "正在添加所有更改到暂存区..."
